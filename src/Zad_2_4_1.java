@@ -13,9 +13,61 @@ public class Zad_2_4_1 {
 
     //Odp: W plecaku o maksymalnej wartości znajdą się przedmioty 1,2,3,4 o wartości 26.
 
-    public static void main(String[] args){
 
 
+    public static void main(String[] args)
+    {
+        int N = 6; // liczba przedmiotów
+        int MAX_V = 10; // objetość plecaka
+        int[] V = {6,2,3,2,3,1}; // objetości przedmiotów
+        int[] W = {6,4,5,7,10,2}; // wartości przedmiotów
 
+        int[] wybrane=new int[N];
+        int[][] Wyniki = new int[N][MAX_V+1];
+
+        for(int i = 0; i < N; i++)
+            for(int j = 0; j <= MAX_V; j++){
+                if(i == 0 && j < V[0]){
+                    Wyniki[i][j] = 0;
+                }
+                else if(i == 0 && j >= V[0]){
+                    Wyniki[i][j] = W[0];
+                }
+                else if(i > 0 && j < V[i]){
+                    Wyniki[i][j] = Wyniki[i-1][j];
+                }
+                else if(i > 0 && j >= V[i]){
+                    if(Wyniki[i-1][j]>W[i] + Wyniki[i-1][j-V[i]])
+                    {
+                        Wyniki[i][j] =Wyniki[i-1][j];
+                    }
+
+                    if(W[i] + Wyniki[i-1][j-V[i]]>Wyniki[i-1][j])
+                    {
+                        if(j==MAX_V)
+                            wybrane[i]=1;
+
+                        Wyniki[i][j]=W[i] + Wyniki[i-1][j-V[i]];
+                    }
+                }
+            }
+
+        for(int i = 0; i < N; i++){
+            for(int j = 1; j <= MAX_V; j++){
+                System.out.print(Wyniki[i][j] + "   ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("max wartosc przedmiotow: "+Wyniki[N-1][MAX_V]);
+        System.out.print("Przedmioty:");
+
+        for(int i=0;i<wybrane.length;i++)
+        {
+            if(wybrane[i]==1)
+            {
+                System.out.print(i+",");
+            }
+        }
     }
 }
