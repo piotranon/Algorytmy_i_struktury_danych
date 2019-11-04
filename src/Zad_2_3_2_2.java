@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.Scanner;
 
 public class Zad_2_3_2_2 {
 
