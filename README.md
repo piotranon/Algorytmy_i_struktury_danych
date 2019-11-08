@@ -30,6 +30,7 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 
 
 ## Zadania
+
 ### 2.1.4
 Metodą [„brutalnej siły”](https://github.com/piotranon/Algorytmy_i_struktury_danych#1-metoda-brutalnej-si%C5%82y) rozwiązać problem doboru załogi statku kosmicznego (patrz podrozdział [A.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#a4-problem-doboru-za%C5%82ogi-statku-kosmicznego)).
 
@@ -81,6 +82,10 @@ Dany jest plecak o objętości v = 23 oraz nieograniczona liczba egzemplarzy 6 r
 Liczby pitagorejskie - to trzy liczby naturalne x, y, z, które spełniają warunek x^2 +y^2 = z^2. Znaleźć wszystkie takie trójki liczb, przy założeniu, że każda z tych liczb ma należy do zbioru {1,...,30}.
 
 ### A.4. Problem doboru załogi statku kosmicznego 
+
+Zadania:  [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#214)
+
+Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
 
 Organizowana jest załogowa ekspedycja kosmiczna na Marsa. W ramach kompletowania załogi statku kosmicznego główny organizator ekspedycji ma rozwiązać następujący problem. Do jego dyspozycji jest pięciu kosmonautów (k1, k2, k3, k4, k5), którzy przeszli pozytywnie kwaliﬁkację wstępną do udziału w ekspedycji. Na pokładzie specjalnego statku kosmicznego spośród nich będzie potrzebny przynajmniej jeden specjalista w każdej z dziedzin: A, B, C i D. Wiadomym jest, że w dziedzinie A specjalizują się kosmonauci k1 i k4, w dziedzinie B specjalizują się kosmonauci k2, k3 i k4, w dziedzinie C specjalizują się kosmonauci k3 i k5 oraz w dziedzinie D specjalizują się kosmonauci k1, k2 i k5. Ze względu na szczupłość miejsca na pokładzie statku kosmicznego, z powyższej piątki trzeba wybrać jak najmniejszą grupkę kosmonautów, tak aby znajdował się w niej przynajmniej jeden specjalista w każdej z dziedzin A, B, C, D.
 
