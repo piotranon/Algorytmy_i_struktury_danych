@@ -2,15 +2,15 @@
 
 
 ## Metody
-### 1. Metoda "brutalnej siły"  
+### 1. Metoda „brutalnej siły”  
 
 Polega na mechanicznym przeglądaniu wszystkich stanów należących do przestrzeni stanów. Dobra metoda „brutalnej siły” musi zagwarantować, aby każdy stan był sprawdzany dokładnie jeden raz. Oznacza to, że nie może być pominięty żaden ze stanów, gdyż w ten sposób podczas poszukiwań mógłby być pominięty poszukiwany stan końcowy. Oprócz tego żaden ze stanów nie powinien być sprawdzany wielokrotnie, gdyż tak sytuacja mogłaby znacznie spowolnić przeszukiwanie przestrzeni stanów. Zastosowanie tej metody wymaga więc ustalenia pewnego porządku zgodnie z którym będą przeglądane stany. Porządek przeglądania stanów zwykle jest ustalany zupełnie bez uwzględnienia ewentualnych reguł przechodzenia pomiędzy stanami.
 
-### 2. Metoda "generowania i testowania"  
+### 2. Metoda „generowania i testowania”  
 
 Polega na generowaniu kolejnych stanów według określonych zasad i badanie ich własności, w celu wychwycenia stanów końcowych. Zasady generowania obiektów nazywane są operatorami przekształcającymi lub regułami produkcyjnymi. Rozwiązanie tak postawionego problemu sprowadza się więc do określenia ciągu operatorów przekształcających stan początkowy w stan końcowy. Dla pojedynczego stanu jest zazwyczaj możliwe (choć nie zawsze) zastosowanie kilku operatorów. Aby jednak móc stosować operatory, trzeba je najpierw zdeﬁniować. W tym celu trzeba wiedzieć pomiędzy jakimi stanami jest możliwe łagodne przejście oraz pomiędzy którymi stanami jest to niemożliwe. Wiedza ta wynika z opisu problemu i jest nierozerwalnie związana ze środowiskiem problemu. 
 
-### 3. Metoda "dziel i zwyciężaj"  
+### 3. Metoda „dziel i zwyciężaj”  
 
 Ogólnie, mówiąc stosowanie tej metody polega na tym, że zamiast rozwiązywać wejściowy problem, który może być problemem trudnym, próbuje się wskazać jeden lub więcej innych problemów, które są łatwiejsze do rozwiązania, a ich rozwiązanie pozwala na skonstruowanie rozwiązania problemu wejściowego. Jedno z praktycznych podejść do rozwiązywania problemów metodą „dziel i zwyciężaj” jest takie, że wejściowy problem jest dzielony na kilka mniejszych podproblemów podobnych do początkowego problemu, ale mających mniejsze rozmiary. Następnie podproblemy te są rozwiązywane. Na koniec rozwiązania wszystkich podproblemów są łączone w celu utworzenia rozwiązania problemu wejściowego.
 
@@ -26,7 +26,9 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 ## Zadania
 
 ### 2.3.2 
-Jak za pomocą metody „dziel i zwyciężaj” rozwiązać problem odgadywania liczby (patrz podrozdział A.6).
+Jak za pomocą metody „dziel i zwyciężaj” rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#a6-problem-odgadywania-liczby)).
+
+Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) , [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) , [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
 
 ## Problemy
 ### A.1. Decyzyjny problem plecakowy  
@@ -80,6 +82,7 @@ Znaleźć kolejność produkcji, przy której całkowity czas przestrojenia masz
 
 ### A.6. Problem odgadywania liczby
 Zadanie:  [2.3.2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#232)
+
 Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) , [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) , [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
 
 Jak odgadnąć liczbę pomyślaną przez rozmówcę z zakresu od 0 do 1000, zadając jak najmniejszą liczbę pytań rozmówcy? Przy czym, pytania zadawane rozmówcy muszą być jedynie typu: „Czy to jest liczba 546?”, na które rozmówca może odpowiadać na jeden z następujących sposobów: „TAK”, „ZA MAŁA” lub „ZA DUŻA”.
