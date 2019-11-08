@@ -31,12 +31,14 @@ Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/A
 Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) , [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) , [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
 
 ### 2.4.1
-Użyj metody [programowania dynamicznego](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#4-programowanie-dynamiczne) do rozwiązania decyzyjnego problemu plecakowego (patrz podrozdział [A.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#a1-decyzyjny-problem-plecakowy)).
+Użyj metody [programowania dynamicznego](https://github.com/piotranon/Algorytmy_i_struktury_danych#4-programowanie-dynamiczne) do rozwiązania decyzyjnego problemu plecakowego (patrz podrozdział [A.1](https://github.com/piotranon/Algorytmy_i_struktury_danych#a1-decyzyjny-problem-plecakowy)).
 
 Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_4_1.java)
 
 ## Problemy
 ### A.1. Decyzyjny problem plecakowy  
+Zadania:  [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych#241)
+Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_4_1.java)
 
 Dany jest plecak o objętości v = 10 oraz 6 przedmiotów ponumerowanych od 0 do 5. Każdy przedmiot ma określoną wartość Wi i objętość Vi. Należy zapakować plecak spośród przedmiotów ponumerowanych od 0 do 5 w taki sposób, aby wartość przedmiotów w nim zgromadzonych była największa. Wartości i objętości przedmiotów określone są w poniższej tabeli:  
 
@@ -86,7 +88,7 @@ Znaleźć kolejność produkcji, przy której całkowity czas przestrojenia masz
 **Odp:** Minimalny całkowity czas przestrojenia maszyny wynosi 63. Oto przykładowa kolejność produkcji lodów, dla której całkowity czas przestrojenia maszyny jest minimalny: 1, 2, 6, 5, 3, 4, 1.
 
 ### A.6. Problem odgadywania liczby
-Zadanie:  [2.3.2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#232)
+Zadania:  [2.3.2](https://github.com/piotranon/Algorytmy_i_struktury_danych#232)
 
 Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) , [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) , [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
 
