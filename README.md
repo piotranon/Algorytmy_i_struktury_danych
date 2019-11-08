@@ -6,6 +6,8 @@
 
 Polega na mechanicznym przeglądaniu wszystkich stanów należących do przestrzeni stanów. Dobra metoda „brutalnej siły” musi zagwarantować, aby każdy stan był sprawdzany dokładnie jeden raz. Oznacza to, że nie może być pominięty żaden ze stanów, gdyż w ten sposób podczas poszukiwań mógłby być pominięty poszukiwany stan końcowy. Oprócz tego żaden ze stanów nie powinien być sprawdzany wielokrotnie, gdyż tak sytuacja mogłaby znacznie spowolnić przeszukiwanie przestrzeni stanów. Zastosowanie tej metody wymaga więc ustalenia pewnego porządku zgodnie z którym będą przeglądane stany. Porządek przeglądania stanów zwykle jest ustalany zupełnie bez uwzględnienia ewentualnych reguł przechodzenia pomiędzy stanami.
 
+Przykłady: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#214)
+
 ### 2. Metoda „generowania i testowania”  
 
 Polega na generowaniu kolejnych stanów według określonych zasad i badanie ich własności, w celu wychwycenia stanów końcowych. Zasady generowania obiektów nazywane są operatorami przekształcającymi lub regułami produkcyjnymi. Rozwiązanie tak postawionego problemu sprowadza się więc do określenia ciągu operatorów przekształcających stan początkowy w stan końcowy. Dla pojedynczego stanu jest zazwyczaj możliwe (choć nie zawsze) zastosowanie kilku operatorów. Aby jednak móc stosować operatory, trzeba je najpierw zdeﬁniować. W tym celu trzeba wiedzieć pomiędzy jakimi stanami jest możliwe łagodne przejście oraz pomiędzy którymi stanami jest to niemożliwe. Wiedza ta wynika z opisu problemu i jest nierozerwalnie związana ze środowiskiem problemu. 
@@ -32,6 +34,12 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 Metodą [„brutalnej siły”](https://github.com/piotranon/Algorytmy_i_struktury_danych#1-metoda-brutalnej-si%C5%82y) rozwiązać problem doboru załogi statku kosmicznego (patrz podrozdział [A.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#a4-problem-doboru-za%C5%82ogi-statku-kosmicznego)).
 
 Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
+
+### 2.2.5
+Metodą przeszukiwania z powracaniem rozwiązać problem wyprodukowania lodów wszystkich smaków (patrz podrozdział [A.5](https://github.com/piotranon/Algorytmy_i_struktury_danych#a5-problem-wyprodukowania-lod%C3%B3w-wszystkich-smak%C3%B3w)).
+
+
+
 ### 2.3.2 
 Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych#a6-problem-odgadywania-liczby)).
 
@@ -79,6 +87,10 @@ Organizowana jest załogowa ekspedycja kosmiczna na Marsa. W ramach kompletowani
 **Odp:** Na Marsa mogą polecieć np. kosmonauci k4 i k5.
 
 ### A.5. Problem wyprodukowania lodów wszystkich smaków 
+
+Zadania:  [2.2.5](https://github.com/piotranon/Algorytmy_i_struktury_danych#225)
+
+Rozwiązania: [2.2.5](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_2_5.java)
 
 Fabryka lodów każdego dnia produkuje na tej samej maszynie lody o sześciu różnych smakach. Zmiana produkcji ze smaku i na smak j wymaga przestrojenia maszyny, czyli przygotowania (w tym umycia) do nowej produkcji, które trwa określony czas. Podana niżej tablica zawiera informację o czasach przestrojenia maszyny.
 
