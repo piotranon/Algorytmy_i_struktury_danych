@@ -27,6 +27,7 @@ public class Zad_2_4_1 {
 
         for(int i = 0; i < N; i++)
             for(int j = 0; j <= MAX_V; j++){
+                //iterujemy po [j] objetosci plecaka od 0 dlatego objetosc musi byc zwiekszona o 1
                 if(i == 0 && j < V[0]){
                     Wyniki[i][j] = 0;
                 }
@@ -37,6 +38,9 @@ public class Zad_2_4_1 {
                     Wyniki[i][j] = Wyniki[i-1][j];
                 }
                 else if(i > 0 && j >= V[i]){
+                    //sprawdzamy co jest optymalniejsze
+                    //czy wartosc przedmiotow dla tej samej objetosci z przedmiotem poprzednim jest wieksza
+                    //od wartosci aktualnego przedmiotu i wartosci najkorzystniejszej dla objetosci mniejszej o objetosc tego przedmiotu
                     if(Wyniki[i-1][j]>W[i] + Wyniki[i-1][j-V[i]])
                     {
                         Wyniki[i][j] =Wyniki[i-1][j];
