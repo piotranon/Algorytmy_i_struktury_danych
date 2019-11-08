@@ -31,7 +31,7 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 ### 2.1.4
 Metodą [„brutalnej siły”](https://github.com/piotranon/Algorytmy_i_struktury_danych#1-metoda-brutalnej-si%C5%82y) rozwiązać problem doboru załogi statku kosmicznego (patrz podrozdział [A.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#a4-problem-doboru-za%C5%82ogi-statku-kosmicznego)).
 
-Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
+Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
 ### 2.3.2 
 Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych#a6-problem-odgadywania-liczby)).
 
