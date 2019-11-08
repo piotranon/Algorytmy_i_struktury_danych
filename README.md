@@ -39,7 +39,7 @@ Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/
 ### 2.2.5
 Metodą przeszukiwania z powracaniem rozwiązać problem wyprodukowania lodów wszystkich smaków (patrz podrozdział [A.5](https://github.com/piotranon/Algorytmy_i_struktury_danych#a5-problem-wyprodukowania-lod%C3%B3w-wszystkich-smak%C3%B3w)).
 
-
+Rozwiązania: [2.2.5](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_2_5.java) 
 
 ### 2.3.2 
 Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych#a6-problem-odgadywania-liczby)).
