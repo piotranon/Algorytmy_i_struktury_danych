@@ -26,7 +26,7 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 ## Zadania
 
 ### 2.3.2 
-Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#a6-problem-odgadywania-liczby)).
+Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych#a6-problem-odgadywania-liczby)).
 
 Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) , [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) , [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
 
