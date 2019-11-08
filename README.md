@@ -14,9 +14,13 @@ Polega na generowaniu kolejnych stanów według określonych zasad i badanie ich
 
 Ogólnie, mówiąc stosowanie tej metody polega na tym, że zamiast rozwiązywać wejściowy problem, który może być problemem trudnym, próbuje się wskazać jeden lub więcej innych problemów, które są łatwiejsze do rozwiązania, a ich rozwiązanie pozwala na skonstruowanie rozwiązania problemu wejściowego. Jedno z praktycznych podejść do rozwiązywania problemów metodą „dziel i zwyciężaj” jest takie, że wejściowy problem jest dzielony na kilka mniejszych podproblemów podobnych do początkowego problemu, ale mających mniejsze rozmiary. Następnie podproblemy te są rozwiązywane. Na koniec rozwiązania wszystkich podproblemów są łączone w celu utworzenia rozwiązania problemu wejściowego.
 
+Przykłady: [2.3.2](https://github.com/piotranon/Algorytmy_i_struktury_danych#232)
+
 ### 4. Programowanie dynamiczne  
 
 Podobnie jak w metodzie „dziel i zwyciężaj”, konstruuje się na podstawie rozwiązań jego podproblemów. Jednakże w metodzieprogramowaniadynamicznegowynikirozwiązańpodproblemówzapamiętywanesąwtablicy. Pozwala to wyeliminować problem wielokrotnego rozwiązywania tych samych podproblemów, charakterystyczny dla metody „dziel i zwyciężaj”. W metodzie „programowania dynamicznego” każdy podproblem rozwiązuje się tylko raz.
+
+Przykłady: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych#241) , [Newton](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Newton_dynamic.java)
 
 ### 5. Programowanie liniowe  
 
@@ -24,7 +28,10 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 
 
 ## Zadania
+### 2.1.4
+Metodą [„brutalnej siły”](https://github.com/piotranon/Algorytmy_i_struktury_danych#1-metoda-brutalnej-si%C5%82y) rozwiązać problem doboru załogi statku kosmicznego (patrz podrozdział [A.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#a4-problem-doboru-za%C5%82ogi-statku-kosmicznego)).
 
+Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
 ### 2.3.2 
 Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych#a6-problem-odgadywania-liczby)).
 
