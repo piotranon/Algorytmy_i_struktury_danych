@@ -12,6 +12,8 @@ Przykłady: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#21
 
 Polega na generowaniu kolejnych stanów według określonych zasad i badanie ich własności, w celu wychwycenia stanów końcowych. Zasady generowania obiektów nazywane są operatorami przekształcającymi lub regułami produkcyjnymi. Rozwiązanie tak postawionego problemu sprowadza się więc do określenia ciągu operatorów przekształcających stan początkowy w stan końcowy. Dla pojedynczego stanu jest zazwyczaj możliwe (choć nie zawsze) zastosowanie kilku operatorów. Aby jednak móc stosować operatory, trzeba je najpierw zdeﬁniować. W tym celu trzeba wiedzieć pomiędzy jakimi stanami jest możliwe łagodne przejście oraz pomiędzy którymi stanami jest to niemożliwe. Wiedza ta wynika z opisu problemu i jest nierozerwalnie związana ze środowiskiem problemu. 
 
+Przykłady: [2.2.5](https://github.com/piotranon/Algorytmy_i_struktury_danych#225)
+
 ### 3. Metoda „dziel i zwyciężaj”  
 
 Ogólnie, mówiąc stosowanie tej metody polega na tym, że zamiast rozwiązywać wejściowy problem, który może być problemem trudnym, próbuje się wskazać jeden lub więcej innych problemów, które są łatwiejsze do rozwiązania, a ich rozwiązanie pozwala na skonstruowanie rozwiązania problemu wejściowego. Jedno z praktycznych podejść do rozwiązywania problemów metodą „dziel i zwyciężaj” jest takie, że wejściowy problem jest dzielony na kilka mniejszych podproblemów podobnych do początkowego problemu, ale mających mniejsze rozmiary. Następnie podproblemy te są rozwiązywane. Na koniec rozwiązania wszystkich podproblemów są łączone w celu utworzenia rozwiązania problemu wejściowego.
@@ -37,7 +39,7 @@ Metodą [„brutalnej siły”](https://github.com/piotranon/Algorytmy_i_struktu
 Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
 
 ### 2.2.5
-Metodą przeszukiwania z powracaniem rozwiązać problem wyprodukowania lodów wszystkich smaków (patrz podrozdział [A.5](https://github.com/piotranon/Algorytmy_i_struktury_danych#a5-problem-wyprodukowania-lod%C3%B3w-wszystkich-smak%C3%B3w)).
+Metodą [przeszukiwania z powracaniem](https://github.com/piotranon/Algorytmy_i_struktury_danych#2-metoda-generowania-i-testowania) rozwiązać problem wyprodukowania lodów wszystkich smaków (patrz podrozdział [A.5](https://github.com/piotranon/Algorytmy_i_struktury_danych#a5-problem-wyprodukowania-lod%C3%B3w-wszystkich-smak%C3%B3w)).
 
 Rozwiązania: [2.2.5](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_2_5.java) 
 
