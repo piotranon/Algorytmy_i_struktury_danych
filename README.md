@@ -26,9 +26,14 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 ## Zadania
 
 ### 2.3.2 
-Jak za pomocą metody „dziel i zwyciężaj” rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#a6-problem-odgadywania-liczby)).
+Jak za pomocą metody [„dziel i zwyciężaj”](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#3-metoda-dziel-i-zwyci%C4%99%C5%BCaj) rozwiązać problem odgadywania liczby (patrz podrozdział [A.6](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#a6-problem-odgadywania-liczby)).
 
 Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) , [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) , [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
+
+### 2.4.1
+Użyj metody [programowania dynamicznego](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#4-programowanie-dynamiczne) do rozwiązania decyzyjnego problemu plecakowego (patrz podrozdział [A.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/README.md#a1-decyzyjny-problem-plecakowy)).
+
+Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_4_1.java)
 
 ## Problemy
 ### A.1. Decyzyjny problem plecakowy  
