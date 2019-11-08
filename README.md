@@ -25,6 +25,9 @@ Programowanie matematyczne jest działem matematyki poświęconym teorii i prakt
 
 ## Zadania
 
+### 2.3.2 
+Jak za pomocą metody „dziel i zwyciężaj” rozwiązać problem odgadywania liczby (patrz podrozdział A.6).
+
 ## Problemy
 ### A.1. Decyzyjny problem plecakowy  
 
@@ -75,7 +78,9 @@ Znaleźć kolejność produkcji, przy której całkowity czas przestrojenia masz
 
 **Odp:** Minimalny całkowity czas przestrojenia maszyny wynosi 63. Oto przykładowa kolejność produkcji lodów, dla której całkowity czas przestrojenia maszyny jest minimalny: 1, 2, 6, 5, 3, 4, 1.
 
-### A.6. Problem odgadywania liczby 
+### A.6. Problem odgadywania liczby
+Zadanie:  
+Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2.java) ---- [2.3.2v2](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_2.java) ---- [2.3.2v3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_3_2_3.java)
 
 Jak odgadnąć liczbę pomyślaną przez rozmówcę z zakresu od 0 do 1000, zadając jak najmniejszą liczbę pytań rozmówcy? Przy czym, pytania zadawane rozmówcy muszą być jedynie typu: „Czy to jest liczba 546?”, na które rozmówca może odpowiadać na jeden z następujących sposobów: „TAK”, „ZA MAŁA” lub „ZA DUŻA”.
 
