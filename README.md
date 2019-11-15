@@ -40,7 +40,7 @@ Działanie jej polega na tym, że na danym etapie przeszukiwania, do dalszej eks
 
 Algorytmy zachłanne cechują się tym, że zawsze wykonują takie działania, które w danej chwili wydają się najkorzystniejsze. Okazuje się, że podczas swej codziennej działalności, ludzie często postępują podobnie. Objawia się to tym, że rozwiązując jakieś zadanie zadawalamy się jego szybkim i w miarę poprawnym rozwiązaniem, choć niekoniecznie optymalnym. Algorytmy zachłanne nie zawsze prowadzą bowiem do optymalnych rozwiązań, choć dla wielu problemów rozwiązania jakie dostarczają algorytmy zachłanne są zupełnie wystarczające. Tak więc, algorytmy zachłanne stosujemy wtedy, gdy na podstawie pewnych danych wejściowych, należy szybko skonstruować rozwiązanie danego problemu. Bowiem algorytm zachłanny zawsze stara się jak najszybciej skonstruować rozwiązanie problemu, używając tych fragmentów danych wejściowych, które na danym etapie konstrukcji rozwiązania wydają się najbardziej użyteczne, tzn. w danym momencie najbardziej przybliżają do skonstruowania ostatecznego rozwiązania.
 
-Przykłady: [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_3_2_3.java) 
+Przykłady: [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych#323) 
 
 ### 3. Metody stochastyczne
 
@@ -78,7 +78,7 @@ Użyj metody [programowania dynamicznego](https://github.com/piotranon/Algorytmy
 Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_4_1.java)
 
 ### 3.2.3
-Skonstruuj [algorytm zachłanny]() rozwiązujący problem doboru załogi statku kosmicznego [A.4]().
+Skonstruuj [algorytm zachłanny](https://github.com/piotranon/Algorytmy_i_struktury_danych#2-algorytmy-zach%C5%82anne) rozwiązujący problem doboru załogi statku kosmicznego [A.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#a4-problem-doboru-za%C5%82ogi-statku-kosmicznego).
 
 Rozwiązania: [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_3_2_3.java) 
 
@@ -114,9 +114,9 @@ Liczby pitagorejskie - to trzy liczby naturalne x, y, z, które spełniają waru
 
 ### A.4. Problem doboru załogi statku kosmicznego 
 
-Zadania:  [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#214)
+Zadania:  [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych#214), [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych#323)
 
-Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java)
+Rozwiązania: [2.1.4](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_1_4.java), [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_3_2_3.java) 
 
 Organizowana jest załogowa ekspedycja kosmiczna na Marsa. W ramach kompletowania załogi statku kosmicznego główny organizator ekspedycji ma rozwiązać następujący problem. Do jego dyspozycji jest pięciu kosmonautów (k1, k2, k3, k4, k5), którzy przeszli pozytywnie kwaliﬁkację wstępną do udziału w ekspedycji. Na pokładzie specjalnego statku kosmicznego spośród nich będzie potrzebny przynajmniej jeden specjalista w każdej z dziedzin: A, B, C i D. Wiadomym jest, że w dziedzinie A specjalizują się kosmonauci k1 i k4, w dziedzinie B specjalizują się kosmonauci k2, k3 i k4, w dziedzinie C specjalizują się kosmonauci k3 i k5 oraz w dziedzinie D specjalizują się kosmonauci k1, k2 i k5. Ze względu na szczupłość miejsca na pokładzie statku kosmicznego, z powyższej piątki trzeba wybrać jak najmniejszą grupkę kosmonautów, tak aby znajdował się w niej przynajmniej jeden specjalista w każdej z dziedzin A, B, C, D.
 
