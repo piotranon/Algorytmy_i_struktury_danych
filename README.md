@@ -1,7 +1,7 @@
 # Algorytmy i struktury danych  
 
 
-## Metody
+## Metody dokładne
 ### 1. Metoda „brutalnej siły”  
 
 Polega na mechanicznym przeglądaniu wszystkich stanów należących do przestrzeni stanów. Dobra metoda „brutalnej siły” musi zagwarantować, aby każdy stan był sprawdzany dokładnie jeden raz. Oznacza to, że nie może być pominięty żaden ze stanów, gdyż w ten sposób podczas poszukiwań mógłby być pominięty poszukiwany stan końcowy. Oprócz tego żaden ze stanów nie powinien być sprawdzany wielokrotnie, gdyż tak sytuacja mogłaby znacznie spowolnić przeszukiwanie przestrzeni stanów. Zastosowanie tej metody wymaga więc ustalenia pewnego porządku zgodnie z którym będą przeglądane stany. Porządek przeglądania stanów zwykle jest ustalany zupełnie bez uwzględnienia ewentualnych reguł przechodzenia pomiędzy stanami.
@@ -30,6 +30,30 @@ Przykłady: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych#24
 
 Programowanie matematyczne jest działem matematyki poświęconym teorii i praktycznym algorytmom wyznaczania ekstremum funkcji wielu zmiennych przy ograniczeniach na obszar ich zmienności. W odróżnieniu od analitycznej teorii badania ekstremów funkcji, programowanie matematyczne zajmuje się tymi zadaniami, w których ograniczenia aktywnie wpływają na poszukiwane ekstrema. W praktycznych zastosowaniach, najczęściej pojawiającą się sytuacją jest przypadek, gdy funkcja ekstremalizowana oraz warunki ograniczające podawane są w postaci liniowej. Wtedy mówimy o odmianie programowania matematycznego, które jest nazywane programowaniem liniowym. 
 
+## Metody aproksymacyjne
+
+### 1. Metoda wspinaczkowa
+
+Działanie jej polega na tym, że na danym etapie przeszukiwania, do dalszej ekspansji wybierany jest ten spośród stanów możliwych do wygenerowania ze stanu bieżącego, który wydaje się najbardziej obiecujący z punktu widzenia dotarcia w czasie przeszukiwania do stanu końcowego. Postępowanie podejmowane w startegii zachłannej jest podobne do akcji turysty atakującej szczyt wzniesienia. Chcąc jak najszybciej osiągnąć sukces, wybiera on aktualnie najlepszy kierunek, chociaż w trakcie dalszej wspinaczki decyzja ta może okazać się błędna i kierunek w danej chwili gorszy, może być w perspektywie całej wspinaczki lepszy. Ze względu na powyższą analogię, omawianą w tym podrozdziale strategię nazywamy strategią wspinaczkową lub strategią wspinaczki górskiej (ang. hill-climbing). Dla poprawnego działania strategii wspinaczkowej konieczna jest funkcja heurystyczna, które pozwala na skuteczną ocenę jakości poszczególnych stanów, z punktu widzenia naprowadzenia procesu przeszukiwania na stan końcowy.
+
+### 2. Algorytmy zachłanne
+
+Algorytmy zachłanne cechują się tym, że zawsze wykonują takie działania, które w danej chwili wydają się najkorzystniejsze. Okazuje się, że podczas swej codziennej działalności, ludzie często postępują podobnie. Objawia się to tym, że rozwiązując jakieś zadanie zadawalamy się jego szybkim i w miarę poprawnym rozwiązaniem, choć niekoniecznie optymalnym. Algorytmy zachłanne nie zawsze prowadzą bowiem do optymalnych rozwiązań, choć dla wielu problemów rozwiązania jakie dostarczają algorytmy zachłanne są zupełnie wystarczające. Tak więc, algorytmy zachłanne stosujemy wtedy, gdy na podstawie pewnych danych wejściowych, należy szybko skonstruować rozwiązanie danego problemu. Bowiem algorytm zachłanny zawsze stara się jak najszybciej skonstruować rozwiązanie problemu, używając tych fragmentów danych wejściowych, które na danym etapie konstrukcji rozwiązania wydają się najbardziej użyteczne, tzn. w danym momencie najbardziej przybliżają do skonstruowania ostatecznego rozwiązania.
+
+Przykłady: [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_3_2_3.java) 
+
+### 3. Metody stochastyczne
+
+Ogólnie mówiąc metody te polegają na tym, że zamiast systematycznie przeszukiwać całą przestrzeń stanów w celu znalezienia stanu końcowego, przegląda się tylko pewną liczbę stanów wybraną w większym lub mniejszym stopniu losowo, mając nadzieje, że pośród nich znajdzie się stan końcowy, będący rozwiązaniem optymalnym badanego problemu lub chociaż stan końcowy, będący zadawalającym nas rozwiązaniem prawie optymalnym. Tak więc, każde rozwiązanie stochastyczne ma w sobie pewien element losowy, wyrażający się w niedeterministycznym wyborze kolejnych stanów, które są badane w czasie przeszukiwania przestrzeni stanów. Ze względu na sposób wybierania badanych stanów wyróżnia się dwa typy metod stochastycznych. Są to tzw. metody globalne oraz metody lokalne.
+
+  * #### 3.1 Metody globalne
+
+Metody globalne nie wyróżniają podczas przeszukiwania żadnych konkretnych stanów. Jedną z najprostszych tego typu metod jest tzw. metoda Monte Carlo. Działa ona w ten sposób, że najpierw losowana jest pewna liczba stanów, po czym spośród nich wybierany jest taki stan, który najbardziej jest zbliżony do wymagań stawianych optymalnemu stanowi końcowemu. Ten właśnie stan zwracany jest jako rozwiązanie analizowanego problemu. Aby z odpowiednio wysokim prawdopodobieństwem uzyskać zadawalające rozwiązanie analizowanego problemu, należy przebadać odpowiednio wybraną próbkę stanów należących do badanej przestrzeni stanów. Próbka ta musi być reprezentatywna oraz mieć odpowiednią wielkość.
+
+   * #### 3.1 Metody lokalne
+
+Przeszukiwanie przestrzeni stanów rozpoczynają od jednego lub czasem kilku losowo wybranych stanów. Następnie sprawdzany jest stan (wybrany w większym lub mniejszym stopniu losowo), który w jakimś sensie jest stanem sąsiednim do analizowanego wcześnie stanu (np. jest bardzo bliski w sensie deﬁniowanej wcześniej odległości pomiędzy stanami). Klasycznym przykładem tego typu metody jest strategia o nazwie błądzenie losowe, która opiera się właśnie na mocno intuicyjnym przypuszczeniu, że poruszając się od stanu do stanu, bez żadnej konkretnej strategii (czyli na sposób „losowy”), natraﬁ się kiedyś na stan końcowy. Strategia ta działa w ten sposób, że kolejny stan wybierany jest losowo spośród tych stanów, które możliwe są do osiągnięcia ze stanu bieżącego. Zatem strategia ta wykorzystuje operatory przejścia od stanu do stanu, przy czym przy przejściu od stanu do stanu, wybierany jest losowo jeden operator spośród tych, które są możliwe do zastosowania w danym stanie.
+
 
 ## Zadania
 
@@ -52,6 +76,11 @@ Rozwiązania: [2.3.2v1](https://github.com/piotranon/Algorytmy_i_struktury_danyc
 Użyj metody [programowania dynamicznego](https://github.com/piotranon/Algorytmy_i_struktury_danych#4-programowanie-dynamiczne) do rozwiązania decyzyjnego problemu plecakowego (patrz podrozdział [A.1](https://github.com/piotranon/Algorytmy_i_struktury_danych#a1-decyzyjny-problem-plecakowy)).
 
 Rozwiązania: [2.4.1](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_2_4_1.java)
+
+### 3.2.3
+Skonstruuj [algorytm zachłanny]() rozwiązujący problem doboru załogi statku kosmicznego [A.4]().
+
+Rozwiązania: [3.2.3](https://github.com/piotranon/Algorytmy_i_struktury_danych/blob/master/src/Zad_3_2_3.java) 
 
 ## Problemy
 ### A.1. Decyzyjny problem plecakowy  
